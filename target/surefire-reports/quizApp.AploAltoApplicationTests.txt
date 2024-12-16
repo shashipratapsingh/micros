@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: quizApp.AploAltoApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.443 s -- in quizApp.AploAltoApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.339 s -- in quizApp.AploAltoApplicationTests

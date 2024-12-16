@@ -11,5 +11,6 @@ public interface QuestionService {
     public Question getQuestionById(Long id);
     public Question updateQuestion(Long id, Question questionDetails);
     public void deleteQuestion(Long id);
+    public List<Question> addQuestions(Question question);
 
 }

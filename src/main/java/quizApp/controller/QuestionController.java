@@ -1,6 +1,8 @@
 package quizApp.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import quizApp.Model.Question;
@@ -39,5 +41,15 @@ public class QuestionController {
     public ResponseEntity<Void> deleteQuestion(@PathVariable Long id) {
         questionService.deleteQuestion(id);
         return ResponseEntity.noContent().build();
+    }
+
+    @PostMapping("/addQuestion")
+    public ResponseEntity<List<Question>> addQuestions(@RequestBody Question question) {
+        if (question == null) {
+            throw new IllegalArgumentException("Question cannot be null");
+        }
+        questionService.addQuestion(question); // Save the question
+        List<Question> allQuestions = questionService.getAllQuestions(); // Fetch all questions
+        return new ResponseEntity<>(allQuestions, HttpStatus.OK);
     }
 }
