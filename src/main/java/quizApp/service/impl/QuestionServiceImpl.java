@@ -19,11 +19,18 @@ public class QuestionServiceImpl implements QuestionService {
         }
 
         public Question getQuestionById(Long id) {
+            if (id == null) {
+                throw new IllegalArgumentException("Question cannot be null");
+            }
             return questionRepo.findById(id).orElseThrow(() -> new RuntimeException("Question not found"));
         }
 
         public Question addQuestion(Question question) {
-            return questionRepo.save(question);
+            if (question == null) {
+                throw new IllegalArgumentException("Question cannot be null");
+            }else {
+                return questionRepo.save(question);
+            }
         }
 
         public Question updateQuestion(Long id, Question questionDetails) {
@@ -43,6 +50,11 @@ public class QuestionServiceImpl implements QuestionService {
         public void deleteQuestion(Long id) {
             questionRepo.deleteById(id);
         }
+
+    public List<Question> addQuestions(Question question) {
+        questionRepo.save(question); // Save the new question
+        return questionRepo.findAll(); // Return all questions
+    }
 
 
 }
