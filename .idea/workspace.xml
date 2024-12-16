@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d074f55c-9a2f-438b-88de-a6edf2a6a270" name="Changes" comment=" question service">
-      <change beforePath="$PROJECT_DIR$/src/main/java/quizApp/QuizAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quizApp/QuizAppApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quizApp/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quizApp/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quizApp/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quizApp/service/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quizApp/service/impl/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quizApp/service/impl/QuestionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/quizApp/QuizAppApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/quizApp/QuizAppApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/quizApp/controller/QuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/quizApp/controller/QuestionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/quizApp/service/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/quizApp/service/QuestionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/quizApp/service/impl/QuestionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/quizApp/service/impl/QuestionServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/quizApp-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/quizApp-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/quizApp-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/quizApp-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2024-12-13T16-12-16_329.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-quizApp.AploAltoApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-quizApp.AploAltoApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/quizApp.AploAltoApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/quizApp.AploAltoApplicationTests.txt" afterDir="false" />
-    </list>
+    <list default="true" id="d074f55c-9a2f-438b-88de-a6edf2a6a270" name="Changes" comment=" question service" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +47,7 @@
     "git-widget-placeholder": "questionservice",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/newLaptop/paloAlto",
+    "last_opened_file_path": "D:/newLaptop/paloAlto/quizApp/pom.xml",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
